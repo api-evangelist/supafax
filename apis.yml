@@ -1,7 +1,29 @@
 aid: supafax
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/supafax.png
 name: Supafax
-description: Supafax is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Supafax is an AI email assistant and autonomous inbox agent from Veriad, Inc.
+  (Y Combinator Winter 2026) that lives inside Gmail and Outlook to proactively
+  manage email and calendar. It drafts context-aware replies in your writing
+  style, auto-labels and prioritizes messages, schedules and books meetings
+  through back-and-forth coordination, answers inbox queries, and runs custom
+  automation rules defined in plain English. Founded in 2025 in San Francisco by
+  Rohan Mahendraker and Anton Muratov, Supafax sells a Professional plan and an
+  Enterprise tier with SSO/SCIM, custom integrations, and dedicated support. It
+  is a consumer/B2B productivity product with no public developer API at this
+  time; its security posture (security.txt, CASA Tier 2, ICO registration, GDPR)
+  is its most developer-relevant public surface.
 url: https://raw.githubusercontent.com/api-evangelist/supafax/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Email
+- Calendar
+- AI Assistant
+- AI Agent
+- Email Automation
+- Productivity
+- Y Combinator
 apis: []
+common:
+- type: TrustCenter
+  url: security/supafax-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/supafax-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/supafax-domain-security.yml
+- type: Security
+  url: https://supafax.com/security
+- type: Compliance
+  url: https://supafax.com/security
+- type: Website
+  url: https://supafax.com
+- type: Pricing
+  url: https://supafax.com/pricing
+- type: SignUp
+  url: https://app.supafax.com/signup
+- type: Login
+  url: https://app.supafax.com/login
+- type: TermsOfService
+  url: https://supafax.com/terms
+- type: PrivacyPolicy
+  url: https://supafax.com/privacy
+- type: Support
+  url: mailto:rohan@supafax.com
+- type: WellKnown
+  url: well-known/supafax-well-known.yml
+- type: SecurityTxt
+  url: well-known/supafax-security.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

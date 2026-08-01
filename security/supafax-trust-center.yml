@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.supafax.com/security
+url: https://www.supafax.com/security
+certifications:
+- SOC 2
+- ISO 27001
+- HIPAA
+- GDPR
+# Faithful status breakdown from the /security page (2026-07-21):
+achieved:
+- CASA Tier 2   # Google Cloud App Security Assessment (OAuth app controls)
+- ICO Registered  # UK Information Commissioner's Office, data controller
+- GDPR         # EU data-subject rights, DPAs, sub-processor transparency
+- Penetration Test
+in_progress:
+- SOC 2 Type II
+- ISO 27001
+- HIPAA
+technical:
+- AES-256 encryption at rest
+- TLS 1.3 in transit
+evidence:
+- source: https://www.supafax.com/security
+  keywords:
+  - soc 2
+  - soc2
+  - iso 27001
+  - hipaa
+  - gdpr

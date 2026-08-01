@@ -1,0 +1,5 @@
+Contact: mailto:rohan@supafax.com
+Expires: 2027-04-28T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://supafax.com/.well-known/security.txt
+Policy: https://supafax.com/security
